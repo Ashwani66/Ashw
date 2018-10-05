@@ -9,7 +9,7 @@ C programs
 #include<stdio.h>
    main()
    {
-   printf("HELLO WORLD"):
+   printf("HELLO WORLD!"):
    }
 2 /*to add two numbers*/
 
@@ -23,11 +23,25 @@ C programs
   printf("please enter two numbers:\n");
   scanf("%d %d",&a,&b);
   addition=a+b;
-  printf("the addition of %d and %d is %d",a,b,addition);
+  printf("the addition of %d and %d is %d\n",a,b,addition);
   printf("thankyou for coming here\n");
   
   getch();
   }
   
+  3 /* to subtract two numbers*/
   
+ #include<stdio.h>
+ #include<conio.h>
+   main()
+ {  
+  int a,b,subtraction;
+  printf("enter two numbers\n");
+  scanf("%d %d ",&a,&b);
+  subtraction=a-b;
+  printf("the subtraction of %d and %d is %d\n",a,b,subtraction);
+  printf("thanks for coming here");
+  
+  getch();
+  }
   
