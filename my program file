@@ -1,0 +1,33 @@
+hii 
+users 
+welcome to my page
+
+C programs
+1 /*to print hello world*/
+
+
+#include<stdio.h>
+   main()
+   {
+   printf("HELLO WORLD"):
+   }
+2 /*to add two numbers*/
+
+
+#include<stdio.h>
+#include<conio.h>
+  main()
+  { 
+  int a,b,addition;  
+  
+  printf("please enter two numbers:\n");
+  scanf("%d %d",&a,&b);
+  addition=a+b;
+  printf("the addition of %d and %d is %d",a,b,addition);
+  printf("thankyou for coming here\n");
+  
+  getch();
+  }
+  
+  
+  
